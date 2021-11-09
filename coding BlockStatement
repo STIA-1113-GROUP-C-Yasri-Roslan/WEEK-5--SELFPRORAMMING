@@ -1,0 +1,25 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class blockStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter the amount");
+		double amount = scanMe.nextDouble();
+		
+		System.out.println("Eneter the balance");
+		double balance = scanMe.nextDouble();
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+			System.out.println("Acct new balance =" + balance );
+		}
+		
+		
+		
+	}
+
+}
