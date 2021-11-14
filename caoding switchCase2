@@ -1,0 +1,27 @@
+package SelfProgramming;
+
+public class switchCase2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char grade = 'A';
+		switch (grade)
+		{
+		case 'A' :
+			System.out.println("Sangat Bagus");
+		
+		case 'B':
+			System.out.println("Bagus");
+		
+		case 'C':
+			System.out.println("Memuaskan");
+		
+		default:
+			System.out.println("Default");
+		
+		
+		
+		}
+	}
+
+}
