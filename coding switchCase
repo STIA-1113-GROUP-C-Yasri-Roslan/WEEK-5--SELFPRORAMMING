@@ -1,0 +1,29 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class switchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe =new Scanner(System.in);
+		
+		System.out.println("Enter your height : ");
+		int height = scanMe.nextInt();
+		switch (height)
+		{
+		case 130:
+			System.out.println("Kids");
+			break;
+		case 150 :
+			System.out.println("Teens");
+			break;
+		case 170:
+			System.out.println("Adults");
+			break ;
+		default :
+			System.out.println("Default");}
+			
+			
+		}
+	}
+
+
